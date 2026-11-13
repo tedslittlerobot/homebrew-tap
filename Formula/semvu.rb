@@ -13,9 +13,9 @@ class Semvu < Formula
   end
 
   bottle do
-    root_url "https://github.com/tedslittlerobot/homebrew-tap/releases/download/semvu-1.2.3"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6f730145dafe11a19fc213f38c5137a56e6fec9a209cabbaea243d74e255e4b9"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "e52a2816161da0b5dca19d7a49fd01aa54483ca0a294cf0090f21304b6981501"
+    root_url "https://github.com/tedslittlerobot/homebrew-tap/releases/download/semvu-1.4.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "144d473f769cd8a5929e4166df3e933525ae3b9d16bb5de9e9330d49e7ef91e4"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "900b7419cfed60bb9f5825157e994a46042602ca01de15cb0632c770b8b1d2f0"
   end
 
   depends_on "go" => :build
