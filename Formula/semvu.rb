@@ -1,8 +1,8 @@
 class Semvu < Formula
   desc "Modify semantic versions and find the latest one in git tags"
   homepage "https://github.com/tedslittlerobot/semvu"
-  url "https://github.com/tedslittlerobot/semvu/archive/refs/tags/v1.2.3.tar.gz"
-  sha256 "65e3da8e5a1c1722ad0f192b69ff2ac0e6fc24dc007baf862531633e00e2f400"
+  url "https://github.com/tedslittlerobot/semvu/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "06012c80731e68070808b63fe519776710ce8a7321d129927e6d3a867419192a"
   license "MIT"
 
   # The latest GitHub release, so release candidates (marked as pre-releases)
