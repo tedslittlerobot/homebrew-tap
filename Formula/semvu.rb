@@ -12,6 +12,12 @@ class Semvu < Formula
     strategy :github_latest
   end
 
+  bottle do
+    root_url "https://github.com/tedslittlerobot/homebrew-tap/releases/download/semvu-1.2.3"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "6f730145dafe11a19fc213f38c5137a56e6fec9a209cabbaea243d74e255e4b9"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "e52a2816161da0b5dca19d7a49fd01aa54483ca0a294cf0090f21304b6981501"
+  end
+
   depends_on "go" => :build
 
   def install
